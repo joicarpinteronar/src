@@ -1,0 +1,161 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Crear sistema externo tipo HES",
+    "uid" : "6e91d6156c19a3ac",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1595860307788,
+      "stop" : 1595860322217,
+      "duration" : 14429
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Editar un sistema externo tipo HES",
+    "uid" : "56ddfbe1ffe33e9",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1595860322218,
+      "stop" : 1595860329638,
+      "duration" : 7420
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Eliminación de un sistema externo tipo HES",
+    "uid" : "9d89ba666adf7ca8",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1595860329639,
+      "stop" : 1595860335731,
+      "duration" : 6092
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Crear variable de perfil",
+    "uid" : "ab606a39af03f55",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "broken",
+    "time" : {
+      "start" : 1595860335733,
+      "stop" : 1595860335736,
+      "duration" : 3
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Actualizar variable de perfil",
+    "uid" : "5f14e5efa41c15d5",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "broken",
+    "time" : {
+      "start" : 1595860335737,
+      "stop" : 1595860335738,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "filtrar por criterio de consulta datos alfanumericos",
+    "uid" : "829305d81184446b",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "failed",
+    "time" : {
+      "start" : 1595860335739,
+      "stop" : 1595860371273,
+      "duration" : 35534
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ocultar columnas visibles en la grilla",
+    "uid" : "bc76bc9cd5ee6be3",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1595860371278,
+      "stop" : 1595860375939,
+      "duration" : 4661
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verificar que se permite agregar columnas a la grilla.",
+    "uid" : "57ac9c44db86be13",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "broken",
+    "time" : {
+      "start" : 1595860375940,
+      "stop" : 1595860409233,
+      "duration" : 33293
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Crear dispositivo",
+    "uid" : "627cbb3093918b5e",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "broken",
+    "time" : {
+      "start" : 1595860409238,
+      "stop" : 1595860409247,
+      "duration" : 9
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Actualizar dispositivo",
+    "uid" : "e0a383ba63e92d71",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "broken",
+    "time" : {
+      "start" : 1595860409250,
+      "stop" : 1595860409259,
+      "duration" : 9
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "configurar el tipo de diagrama de angulos en \"Absoluto\"",
+    "uid" : "1eb30a86ba57f1a2",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "failed",
+    "time" : {
+      "start" : 1595860409263,
+      "stop" : 1595860413178,
+      "duration" : 3915
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "CONSULTA EN BD",
+    "uid" : "6c0625ccb2b46e71",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "broken",
+    "time" : {
+      "start" : 1595860413181,
+      "stop" : 1595860414124,
+      "duration" : 943
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

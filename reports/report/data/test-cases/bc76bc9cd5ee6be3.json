@@ -1,0 +1,185 @@
+{
+  "uid" : "bc76bc9cd5ee6be3",
+  "name" : "ocultar columnas visibles en la grilla",
+  "historyId" : "eda5acc71c945d925a7db89c8421bdc7",
+  "time" : {
+    "start" : 1595860371278,
+    "stop" : 1595860375939,
+    "duration" : 4661
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given El usuario navega a la página principal",
+      "time" : {
+        "start" : 1595860371281,
+        "stop" : 1595860372071,
+        "duration" : 790
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1e7005fd1431e97f",
+        "name" : "b2418608-bbc4-45b9-a246-6c361eff5323-attachment.png",
+        "source" : "1e7005fd1431e97f.png",
+        "type" : "image/png",
+        "size" : 39913
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "When El usuario ingrese a la url \"http://192.168.1.105:4200/home/measurement-systems\"",
+      "time" : {
+        "start" : 1595860372071,
+        "stop" : 1595860372730,
+        "duration" : 659
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1792c13929a01a65",
+        "name" : "560f923b-0f24-48ff-93f8-06597d42b5d2-attachment.png",
+        "source" : "1792c13929a01a65.png",
+        "type" : "image/png",
+        "size" : 39887
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "When El usuario hace hover en la opción \"MEASUREMENT_SYSTEMS_BTN\"",
+      "time" : {
+        "start" : 1595860372731,
+        "stop" : 1595860373558,
+        "duration" : 827
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fc3c8162b2b7be49",
+        "name" : "ccbbfc2f-31b0-456e-897d-bdf35f9c7261-attachment.png",
+        "source" : "fc3c8162b2b7be49.png",
+        "type" : "image/png",
+        "size" : 39525
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "When El usuario hace hover en la opción \"SERVICE POINTS_BTN\"",
+      "time" : {
+        "start" : 1595860373558,
+        "stop" : 1595860374146,
+        "duration" : 588
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a2cd6e7d49676063",
+        "name" : "46e9bdd9-3930-4481-935b-1fdb99980e8f-attachment.png",
+        "source" : "a2cd6e7d49676063.png",
+        "type" : "image/png",
+        "size" : 46617
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "When El usuario de click en la opción \"SELECTOR_COLUMNA\"",
+      "time" : {
+        "start" : 1595860374147,
+        "stop" : 1595860374690,
+        "duration" : 543
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e08ee651a5da56b7",
+        "name" : "1401e3db-46a5-4331-8a73-0561ea0ffe47-attachment.png",
+        "source" : "e08ee651a5da56b7.png",
+        "type" : "image/png",
+        "size" : 57303
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then El usuario arrastra el objeto \"PTOSERVICIO_COL\" a \"VENTANA_COLUMNAS\"",
+      "time" : {
+        "start" : 1595860374690,
+        "stop" : 1595860375939,
+        "duration" : 1249
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b63f1020dc66e37f",
+        "name" : "39bf6a0f-ad6a-4a2b-9bf0-071726c50211-attachment.png",
+        "source" : "b63f1020dc66e37f.png",
+        "type" : "image/png",
+        "size" : 55444
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 6,
+    "hasContent" : true,
+    "stepsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "5500-2"
+  }, {
+    "name" : "tag",
+    "value" : "UI"
+  }, {
+    "name" : "feature",
+    "value" : "5191 - Sistemas de medición"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "UI", "5500-2" ]
+  },
+  "source" : "bc76bc9cd5ee6be3.json",
+  "parameterValues" : [ ]
+}

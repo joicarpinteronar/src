@@ -1,0 +1,111 @@
+{
+  "uid" : "e0a383ba63e92d71",
+  "name" : "Actualizar dispositivo",
+  "historyId" : "6e7cb2aa206d44bc0573b2722650882f",
+  "time" : {
+    "start" : 1595860409250,
+    "stop" : 1595860409259,
+    "duration" : 9
+  },
+  "status" : "broken",
+  "statusMessage" : "FileNotFoundError: [Errno 2] No such file or directory: './Data/config.json'\n",
+  "statusTrace" : "  File \"c:\\users\\jose.carpintero\\anaconda3\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"c:\\users\\jose.carpintero\\anaconda3\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\steps.py\", line 56, in step_impl\n    context.api_actions.put_api_url(api_url)\n  File \"C:\\Automatizacion Zulay\\poc\\src\\Actions\\api_actions.py\", line 41, in put_api_url\n    various_functions.create_json(data, './Data/config.json')\n  File \"C:\\Automatizacion Zulay\\poc\\src\\Actions\\variuos_functions.py\", line 17, in create_json\n    with open(self.json_path, 'w') as json_file:\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "FileNotFoundError: [Errno 2] No such file or directory: './Data/config.json'\n",
+    "statusTrace" : "  File \"c:\\users\\jose.carpintero\\anaconda3\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"c:\\users\\jose.carpintero\\anaconda3\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\steps.py\", line 56, in step_impl\n    context.api_actions.put_api_url(api_url)\n  File \"C:\\Automatizacion Zulay\\poc\\src\\Actions\\api_actions.py\", line 41, in put_api_url\n    various_functions.create_json(data, './Data/config.json')\n  File \"C:\\Automatizacion Zulay\\poc\\src\\Actions\\variuos_functions.py\", line 17, in create_json\n    with open(self.json_path, 'w') as json_file:\n",
+    "steps" : [ {
+      "name" : "Given El sistema configure la url \"http://192.168.1.105:5001/metering_system/set_up\"",
+      "time" : {
+        "start" : 1595860409253,
+        "stop" : 1595860409257,
+        "duration" : 4
+      },
+      "status" : "broken",
+      "statusMessage" : "FileNotFoundError: [Errno 2] No such file or directory: './Data/config.json'\n",
+      "statusTrace" : "  File \"c:\\users\\jose.carpintero\\anaconda3\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"c:\\users\\jose.carpintero\\anaconda3\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\steps.py\", line 56, in step_impl\n    context.api_actions.put_api_url(api_url)\n  File \"C:\\Automatizacion Zulay\\poc\\src\\Actions\\api_actions.py\", line 41, in put_api_url\n    various_functions.create_json(data, './Data/config.json')\n  File \"C:\\Automatizacion Zulay\\poc\\src\\Actions\\variuos_functions.py\", line 17, in create_json\n    with open(self.json_path, 'w') as json_file:\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "When El sistema \"actualice\" un dispositivo",
+      "time" : {
+        "start" : 1595860409259,
+        "stop" : 1595860409259,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then El sistema valida que la operación \"Update\" para \"Dispositivo\" haya arrojado el resultado \"Successful\"",
+      "time" : {
+        "start" : 1595860409259,
+        "stop" : 1595860409259,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "rest"
+  }, {
+    "name" : "feature",
+    "value" : "Crear dispositivo"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "rest" ]
+  },
+  "source" : "e0a383ba63e92d71.json",
+  "parameterValues" : [ ]
+}

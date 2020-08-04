@@ -1,0 +1,12 @@
+**** GENERAL INFO ****
+
+**TAGS**
+@Release1  : todas las HU del release 1 de arquitectura.
+@UI : Historias de Interfaz grafica.
+@rest : HU de servicios rest
+@primeread : llamadas, descarga de datos y visualización fasoriales en el dashboard.
+
+
+** REPORTE **
+1. behave --tags=-@primeread -f allure_behave.formatter:AllureFormatter -o reports/results ./features
+2. allure generate reports/results -o reports/report --clean

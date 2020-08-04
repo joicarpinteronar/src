@@ -1,0 +1,102 @@
+{
+  "uid" : "6c0625ccb2b46e71",
+  "name" : "CONSULTA EN BD",
+  "historyId" : "f5fb7a251dbb7b6a6fc4e5a7500d56b3",
+  "time" : {
+    "start" : 1595860413181,
+    "stop" : 1595860414124,
+    "duration" : 943
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'VariousFunctions' object has no attribute 'conn_ps'\n",
+  "statusTrace" : "  File \"c:\\users\\jose.carpintero\\anaconda3\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"c:\\users\\jose.carpintero\\anaconda3\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\steps.py\", line 102, in step_impl\n    context.variuos_functions.conn_ps()\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'VariousFunctions' object has no attribute 'conn_ps'\n",
+    "statusTrace" : "  File \"c:\\users\\jose.carpintero\\anaconda3\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"c:\\users\\jose.carpintero\\anaconda3\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\steps.py\", line 102, in step_impl\n    context.variuos_functions.conn_ps()\n",
+    "steps" : [ {
+      "name" : "Given El usuario navega a la página principal",
+      "time" : {
+        "start" : 1595860413183,
+        "stop" : 1595860414121,
+        "duration" : 938
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c22375d84b152187",
+        "name" : "82f3bfd2-ceb0-46de-81d4-194532d0ae34-attachment.png",
+        "source" : "c22375d84b152187.png",
+        "type" : "image/png",
+        "size" : 39220
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "When El usuario consulta en bd",
+      "time" : {
+        "start" : 1595860414122,
+        "stop" : 1595860414124,
+        "duration" : 2
+      },
+      "status" : "broken",
+      "statusMessage" : "AttributeError: 'VariousFunctions' object has no attribute 'conn_ps'\n",
+      "statusTrace" : "  File \"c:\\users\\jose.carpintero\\anaconda3\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"c:\\users\\jose.carpintero\\anaconda3\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\steps.py\", line 102, in step_impl\n    context.variuos_functions.conn_ps()\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "primeread-1"
+  }, {
+    "name" : "feature",
+    "value" : "Pruebas PR."
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "primeread-1" ]
+  },
+  "source" : "6c0625ccb2b46e71.json",
+  "parameterValues" : [ ]
+}

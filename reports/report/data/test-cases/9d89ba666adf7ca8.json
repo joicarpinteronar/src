@@ -1,0 +1,230 @@
+{
+  "uid" : "9d89ba666adf7ca8",
+  "name" : "Eliminación de un sistema externo tipo HES",
+  "historyId" : "c6e11079e909e0469e53053f5178ddcb",
+  "time" : {
+    "start" : 1595860329639,
+    "stop" : 1595860335731,
+    "duration" : 6092
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given El usuario navega a la página principal",
+      "time" : {
+        "start" : 1595860329640,
+        "stop" : 1595860330379,
+        "duration" : 739
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "eac40c9616e60afd",
+        "name" : "9a1c52ef-d7f1-488b-b4c3-85ccbba56c45-attachment.png",
+        "source" : "eac40c9616e60afd.png",
+        "type" : "image/png",
+        "size" : 39939
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "When El usuario ingrese a la url \"http://192.168.1.105:4200/home/external-system\"",
+      "time" : {
+        "start" : 1595860330379,
+        "stop" : 1595860331078,
+        "duration" : 699
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7d159e180b523479",
+        "name" : "81dda47f-2283-4ca9-ba82-af7e85b80650-attachment.png",
+        "source" : "7d159e180b523479.png",
+        "type" : "image/png",
+        "size" : 45914
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "When El usuario hace hover en la opción \"EXTERNAL_SYSTEM_CARD1\"",
+      "time" : {
+        "start" : 1595860331078,
+        "stop" : 1595860331646,
+        "duration" : 568
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8ff150068ee90fd0",
+        "name" : "df0b3643-1304-45d6-9533-5182fb6afbab-attachment.png",
+        "source" : "8ff150068ee90fd0.png",
+        "type" : "image/png",
+        "size" : 46367
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "When El usuario de click en la opción \"EXTERNAL_SYSTEM_CARD1\"",
+      "time" : {
+        "start" : 1595860331646,
+        "stop" : 1595860332029,
+        "duration" : 383
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5591953a1e121077",
+        "name" : "e588b8f7-849c-4e57-a611-4ab921cad3c7-attachment.png",
+        "source" : "5591953a1e121077.png",
+        "type" : "image/png",
+        "size" : 49490
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "When El usuario hace hover en la opción \"REMOVE_EXTERNAL_SYSTEM\"",
+      "time" : {
+        "start" : 1595860332029,
+        "stop" : 1595860332604,
+        "duration" : 575
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "87913b85eb64965f",
+        "name" : "5f6cf749-a9da-44c8-873e-be865b3404f7-attachment.png",
+        "source" : "87913b85eb64965f.png",
+        "type" : "image/png",
+        "size" : 49415
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "When El usuario de click en la opción \"REMOVE_EXTERNAL_SYSTEM\"",
+      "time" : {
+        "start" : 1595860332604,
+        "stop" : 1595860332995,
+        "duration" : 391
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "56d2846d622aa89c",
+        "name" : "e74836cc-9b6a-487a-b025-0e65733f6e4a-attachment.png",
+        "source" : "56d2846d622aa89c.png",
+        "type" : "image/png",
+        "size" : 57242
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "When El usuario de click en la opción \"EXTERNAL_SYSTEM_BTN_DEL_ES\"",
+      "time" : {
+        "start" : 1595860332995,
+        "stop" : 1595860333381,
+        "duration" : 386
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4d9cad88b8a5eed0",
+        "name" : "365c14a0-d939-474f-9e1b-fdab098d4ae0-attachment.png",
+        "source" : "4d9cad88b8a5eed0.png",
+        "type" : "image/png",
+        "size" : 45914
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then El sistema muestra en \"EXTERNAL_SYSTEM_TOAST_DELES\" el mensaje \"Los sistemas externos fueron eliminados correctamente\"",
+      "time" : {
+        "start" : 1595860333381,
+        "stop" : 1595860335731,
+        "duration" : 2350
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d6e12d066ac44348",
+        "name" : "b6cd96a4-17e9-43bb-bdfd-7ba2e3d482ed-attachment.png",
+        "source" : "d6e12d066ac44348.png",
+        "type" : "image/png",
+        "size" : 49941
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 8,
+    "hasContent" : true,
+    "stepsCount" : 8
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "13627-3"
+  }, {
+    "name" : "tag",
+    "value" : "SE"
+  }, {
+    "name" : "tag",
+    "value" : "UI"
+  }, {
+    "name" : "feature",
+    "value" : "13627 - Sistemas externos"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "SE", "UI", "13627-3" ]
+  },
+  "source" : "9d89ba666adf7ca8.json",
+  "parameterValues" : [ ]
+}

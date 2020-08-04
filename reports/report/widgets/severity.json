@@ -1,0 +1,121 @@
+[ {
+  "uid" : "56ddfbe1ffe33e9",
+  "name" : "Editar un sistema externo tipo HES",
+  "time" : {
+    "start" : 1595860322218,
+    "stop" : 1595860329638,
+    "duration" : 7420
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e0a383ba63e92d71",
+  "name" : "Actualizar dispositivo",
+  "time" : {
+    "start" : 1595860409250,
+    "stop" : 1595860409259,
+    "duration" : 9
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1eb30a86ba57f1a2",
+  "name" : "configurar el tipo de diagrama de angulos en \"Absoluto\"",
+  "time" : {
+    "start" : 1595860409263,
+    "stop" : 1595860413178,
+    "duration" : 3915
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "57ac9c44db86be13",
+  "name" : "Verificar que se permite agregar columnas a la grilla.",
+  "time" : {
+    "start" : 1595860375940,
+    "stop" : 1595860409233,
+    "duration" : 33293
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "627cbb3093918b5e",
+  "name" : "Crear dispositivo",
+  "time" : {
+    "start" : 1595860409238,
+    "stop" : 1595860409247,
+    "duration" : 9
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5f14e5efa41c15d5",
+  "name" : "Actualizar variable de perfil",
+  "time" : {
+    "start" : 1595860335737,
+    "stop" : 1595860335738,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6c0625ccb2b46e71",
+  "name" : "CONSULTA EN BD",
+  "time" : {
+    "start" : 1595860413181,
+    "stop" : 1595860414124,
+    "duration" : 943
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6e91d6156c19a3ac",
+  "name" : "Crear sistema externo tipo HES",
+  "time" : {
+    "start" : 1595860307788,
+    "stop" : 1595860322217,
+    "duration" : 14429
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab606a39af03f55",
+  "name" : "Crear variable de perfil",
+  "time" : {
+    "start" : 1595860335733,
+    "stop" : 1595860335736,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bc76bc9cd5ee6be3",
+  "name" : "ocultar columnas visibles en la grilla",
+  "time" : {
+    "start" : 1595860371278,
+    "stop" : 1595860375939,
+    "duration" : 4661
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "829305d81184446b",
+  "name" : "filtrar por criterio de consulta datos alfanumericos",
+  "time" : {
+    "start" : 1595860335739,
+    "stop" : 1595860371273,
+    "duration" : 35534
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d89ba666adf7ca8",
+  "name" : "Eliminación de un sistema externo tipo HES",
+  "time" : {
+    "start" : 1595860329639,
+    "stop" : 1595860335731,
+    "duration" : 6092
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

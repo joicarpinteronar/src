@@ -1,0 +1,238 @@
+{
+  "b214a1bf9bac3471ce406a0fb470d1b1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "57ac9c44db86be13",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//tbody[@role='presentation']/tr[@class='dx-row dx-data-row'][1]\"}\n  (Session info: chrome=84.0.4147.89)\n\n",
+      "time" : {
+        "start" : 1595860375940,
+        "stop" : 1595860409233,
+        "duration" : 33293
+      }
+    } ]
+  },
+  "15564009a9b1b220e78802a7bf646fdd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6e91d6156c19a3ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595860307788,
+        "stop" : 1595860322217,
+        "duration" : 14429
+      }
+    } ]
+  },
+  "1d6884b0723f55e422a1525855fa63fd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5f14e5efa41c15d5",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: './Data/config.json'\n",
+      "time" : {
+        "start" : 1595860335737,
+        "stop" : 1595860335738,
+        "duration" : 1
+      }
+    } ]
+  },
+  "c6e11079e909e0469e53053f5178ddcb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9d89ba666adf7ca8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595860329639,
+        "stop" : 1595860335731,
+        "duration" : 6092
+      }
+    } ]
+  },
+  "cce5d5d8c6249d9749851bcede4d3262" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "829305d81184446b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Not is equal\n",
+      "time" : {
+        "start" : 1595860335739,
+        "stop" : 1595860371273,
+        "duration" : 35534
+      }
+    } ]
+  },
+  "eda5acc71c945d925a7db89c8421bdc7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bc76bc9cd5ee6be3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595860371278,
+        "stop" : 1595860375939,
+        "duration" : 4661
+      }
+    } ]
+  },
+  "a5780f7bdde128f85324447c4b0fc749" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1eb30a86ba57f1a2",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 'Log in to PrimeAnalytics Single Sign-On' != 'PrimeRead'\n- Log in to PrimeAnalytics Single Sign-On\n+ PrimeRead\n\n",
+      "time" : {
+        "start" : 1595860409263,
+        "stop" : 1595860413178,
+        "duration" : 3915
+      }
+    } ]
+  },
+  "244bf84505e65f81b290143d6c3c80b7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "56ddfbe1ffe33e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595860322218,
+        "stop" : 1595860329638,
+        "duration" : 7420
+      }
+    } ]
+  },
+  "f5fb7a251dbb7b6a6fc4e5a7500d56b3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6c0625ccb2b46e71",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'VariousFunctions' object has no attribute 'conn_ps'\n",
+      "time" : {
+        "start" : 1595860413181,
+        "stop" : 1595860414124,
+        "duration" : 943
+      }
+    } ]
+  },
+  "231fc5e4340526a85c8b7bba8ed9af34" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "627cbb3093918b5e",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: './Data/config.json'\n",
+      "time" : {
+        "start" : 1595860409238,
+        "stop" : 1595860409247,
+        "duration" : 9
+      }
+    } ]
+  },
+  "5d650354c0961b925d8f5f01868fd082" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ab606a39af03f55",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: './Data/config.json'\n",
+      "time" : {
+        "start" : 1595860335733,
+        "stop" : 1595860335736,
+        "duration" : 3
+      }
+    } ]
+  },
+  "6e7cb2aa206d44bc0573b2722650882f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e0a383ba63e92d71",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: './Data/config.json'\n",
+      "time" : {
+        "start" : 1595860409250,
+        "stop" : 1595860409259,
+        "duration" : 9
+      }
+    } ]
+  }
+}
